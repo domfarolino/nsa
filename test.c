@@ -35,7 +35,7 @@ int32_t function_438(void) {
     int32_t result = *(int32_t *)(entry_point() + 0x1bb3); // bp+447
     if (result != 0) {
         // 0x451
-        //__gmon_start();
+        __gmon_start();
         // branch -> 0x456
     }
     // 0x456
